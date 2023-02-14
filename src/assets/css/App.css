@@ -1,0 +1,225 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form{  
+    /* background-color: purple; */
+    padding: 1rem;
+
+}
+
+body{
+    display: flex;   
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(145,198,212);
+    background: linear-gradient(180deg, rgba(145,198,212,1) 0%, rgba(195,216,222,1) 100%);
+    margin: 0;
+    /* background-size: cover; */
+    background-attachment: fixed;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 10rem;
+    width: 20rem;
+    backdrop-filter: blur(30px);
+    border-radius: 2rem;
+    box-shadow: 0 0 55px 3px #ffffff41;
+    
+
+}
+
+.app__name{
+    padding: auto;
+    font-size: 5rem;
+    margin-bottom: .5em;
+    font-weight: 600;
+    background: rgb(145,198,212);
+    background: linear-gradient(180deg, rgba(145,198,212,1) 0%, rgba(255,255,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.input{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    /* background-color: aqua; */
+}
+
+.input__form{
+        padding: 0.4rem 1.3rem;
+        font-size: 16px;
+        border-width: 0px;
+        border-color: #ffffff;
+        background-color: #c3d8de;
+        color: #ffffff;
+        border-style: solid;
+        border-radius: 28px;
+        box-shadow: 0px 0px 5px rgba(255,255,255,.75);
+        text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+        
+   }
+    .input__form:focus {
+        outline:none;
+   }
+
+
+
+.button__input{
+    padding: 12px;
+        font-size: 14px;
+        border-width: 0px;
+        border-color: #ffffff;
+        background-color: #c3d8de;
+        color: #ffffff;
+        border-style: solid;
+        border-radius: 28px;
+        box-shadow: 0px 0px 5px rgba(255,255,255,.75);
+        text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.button__input:hover{
+    background-color: #b4c8ce;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+        /* text-shadow: 0px 0px 5px rgba(255,255,255,.75); */
+}
+
+
+.App{
+    /* background-color: rgb(35, 92, 92); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.img__icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+    }
+
+.card__row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card__container{
+    /* background-color: aqua; */
+    width: 820px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: auto;
+    width: 50rem;
+    padding: 0rem;
+    gap: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 55px 3px #ffffff41;
+
+}
+
+.card{
+    /* width: 32rem; */
+}
+
+.card__title {
+    margin-bottom: 360px;
+    font-size: 30px;
+    position: absolute;
+    padding: 20px;
+    color: white;
+}
+
+.card__date {
+    margin-bottom: 350px;
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 70px;
+    color: white;
+
+}
+
+.card__temp{
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 360px;
+    font-size: 50px;
+    color: white;
+
+}
+
+.card__desc{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 420px;
+    color: white;
+
+}
+
+.card__body{
+    padding-left: 2rem;
+}
+
+.weather__container{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img__city{
+    width: 420px;
+    height: 500px;
+    border-radius: 1rem;
+    max-width: 60%;
+}
+
+
+
+.card__colm4{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    
+}
+
+.card__element{
+    /* max-width: 60%; */
+}
+
+.text__ligth{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    color: #ffffff41;
+}
